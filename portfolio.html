@@ -5,28 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 </head>
-<body style="background-color: black;">
+<body style="background-color: black; margin: 0; padding: 10px;">
+
+   <!-- Header Container -->
    <div id="headerDiv" 
    style="border: 2px solid gold;
    border-radius: 5px;
    color: gold;
    font-family: sans-serif;
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-between;
-   align-items: flex-start;
+   align-items: center;
+   gap: 15px;
    padding: 10px;">
      
-     <img src="logo.PNG" alt="Company logo" style="width: 300px; height: 100px;">
-       <h1>CRH Web Designs</h1>
-     <div>
-        <a href="index.html" style="font-size: 20px; cursor: pointer; padding: 6px; white-space: nowrap; text-decoration: none;">HOME</a>
-        <a href="services.html" style="font-size: 20px; cursor: pointer; padding: 6px; white-space: nowrap; text-decoration: none;">SERVICES</a>
-    </div>
-</div> 
+     <img src="logo.PNG" alt="Company logo" style="max-width: 100%; width: 300px; height: auto;">
+     <h1 style="margin: 0;">CRH Web Designs</h1>
+     
+     <nav style="display: flex; gap: 10px; flex-wrap: wrap;">
+        <a href="index.html" style="font-size: 20px; cursor: pointer; padding: 6px; white-space: nowrap; text-decoration: none; color: gold;">HOME</a>
+        <a href="services.html" style="font-size: 20px; cursor: pointer; padding: 6px; white-space: nowrap; text-decoration: none; color: gold;">SERVICES</a>
+     </nav>
+   </div> 
 
-<div id="Services"
-style="border: 2px solid gold;
-margin-top: 20px;
+   <!-- Portfolio Content Container -->
+   <div id="Services"
+   style="border: 2px solid gold;
+   margin-top: 20px;
    border-radius: 5px;
    color: gold;
    font-family: sans-serif;
@@ -34,37 +40,37 @@ margin-top: 20px;
    flex-direction: column;
    justify-content: space-between;
    align-items: flex-start;
-   padding: 10px;"
->
-<h2>Portfolio</h2>
+   padding: 15px;
+   box-sizing: border-box;
+   max-width: 100%;">
+      
+      <h2>Portfolio</h2>
 
-<p>
-    CRH Web Designs has worked on a variety of projects, including e-commerce websites, portfolio websites, and custom web applications. Below are some examples of our work:
-    <ul>
-        <li><a style="color: gold;" href="https://bluesdiscountglassllc.com/">Blues Discount Glass LLC.com</a> 
-            - This is the first client of CRH Web Designs. This website was designed based on a template designed by the customer and 
-            duplicated using html, css, and javascript. This website is fully functional and responsive. It allows you to navigate to 
-            the store location, view google reviews and ratings from different customers, and submit forms for a quote.<br>
-            <img src="bluesScreenshot.PNG" alt="Company logo" style="width: 300px; height: 200px;">
-        </li><br>
-        <li><a style="color: gold;" href="https://www.crhwebdesigns.com">crhwebdesigns.com</a> 
-            - This is the official website for CRH Web Designs. It showcases our services, portfolio, and lets you schedule consultations.<br>
-            <img src="crhwebdesignsscreen.PNG" alt="Company logo" style="width: 300px; height: 200px;">
-        </li>
-        <li><a style="color: gold;" href="https://www.example3.com">Example Project 3</a> - 
-            Whatever website you want to have done after scheduling a consultation.<br>
-        <img src="IMG_7025.JPG" alt="Company logo" style="width: 300px; height: 200px;"></li>
-    </ul>
-</p>
+      <p style="line-height: 1.5; margin-bottom: 10px;">
+          CRH Web Designs has worked on a variety of projects, including e-commerce websites, portfolio websites, and custom web applications. Below are some examples of our work:
+      </p>
 
-</div>
+      <ul style="padding-left: 20px; width: 100%; box-sizing: border-box;">
+          <li style="margin-bottom: 20px;">
+              <a style="color: gold;" href="https://bluesdiscountglassllc.com/">Blues Discount Glass LLC.com</a> 
+              - This is the first client of CRH Web Designs. This website was designed based on a template designed by the customer and duplicated using HTML, CSS, and JavaScript. This website is fully functional and responsive. It allows you to navigate to the store location, view Google reviews and ratings from different customers, and submit forms for a quote.<br><br>
+              <img src="bluesScreenshot.PNG" alt="Blues Discount Glass Screenshot" style="max-width: 100%; width: 300px; height: auto; border-radius: 4px;">
+          </li>
+          
+          <li style="margin-bottom: 20px;">
+              <a style="color: gold;" href="https://www.crhwebdesigns.com">crhwebdesigns.com</a> 
+              - This is the official website for CRH Web Designs. It showcases our services, portfolio, and lets you schedule consultations.<br><br>
+              <img src="crhwebdesignsscreen.PNG" alt="CRH Web Designs Screenshot" style="max-width: 100%; width: 300px; height: auto; border-radius: 4px;">
+          </li>
 
+          <li style="margin-bottom: 20px;">
+              <a style="color: gold;" href="https://www.example3.com">Example Project 3</a>
+              - Whatever website you want to have done after scheduling a consultation.<br><br>
+              <img src="IMG_7025.JPG" alt="Example Project Screenshot" style="max-width: 100%; width: 300px; height: auto; border-radius: 4px;">
+          </li>
+      </ul>
 
+   </div>
 
-
-
-
-
-</div>
 </body>
 </html>
