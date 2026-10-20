@@ -5,28 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRH Web Designs</title>
 </head>
-<body style="background-color: black;">
+<body style="background-color: black; margin: 0; padding: 10px; box-sizing: border-box;">
+
+   <!-- Header Container -->
    <div id="headerDiv" 
    style="border: 2px solid gold;
    border-radius: 5px;
    color: gold;
    font-family: sans-serif;
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-between;
-   align-items: flex-start;
-   padding: 10px;">
+   align-items: center;
+   gap: 15px;
+   padding: 10px;
+   box-sizing: border-box;">
      
-     <img src="logo.PNG" alt="Company logo" style="width: 300px; height: 100px;">
-       <h1>CRH Web Designs</h1>
-     <div>
-        <a href="services.html" style="font-size: 20px; cursor: pointer; padding: 6px; white-space: nowrap; text-decoration: none;">SERVICES</a>
-        <a href="portfolio.html" style="font-size: 20px; cursor: pointer; padding: 6px; white-space: nowrap; text-decoration: none;">PORTFOLIO</a>
-    </div>
-</div> 
+     <img src="logo.PNG" alt="Company logo" style="max-width: 100%; width: 300px; height: auto;">
+     <h1 style="margin: 0; font-size: clamp(1.5rem, 4vw, 2.5rem);">CRH Web Designs</h1>
+     
+     <nav style="display: flex; gap: 10px; flex-wrap: wrap;">
+        <a href="services.html" style="font-size: 20px; cursor: pointer; padding: 6px; white-space: nowrap; text-decoration: none; color: gold;">SERVICES</a>
+        <a href="portfolio.html" style="font-size: 20px; cursor: pointer; padding: 6px; white-space: nowrap; text-decoration: none; color: gold;">PORTFOLIO</a>
+    </nav>
+   </div> 
 
-<div id="aboutUs"
-style="border: 2px solid gold;
-margin-top: 20px;
+   <!-- About Us Container -->
+   <div id="aboutUs"
+   style="border: 2px solid gold;
+   margin-top: 20px;
    border-radius: 5px;
    color: gold;
    font-family: sans-serif;
@@ -34,115 +41,112 @@ margin-top: 20px;
    flex-direction: column;
    justify-content: space-between;
    align-items: flex-start;
-   padding: 10px;"
->
-<h2>About Us</h2>
-<p>CRH Web Designs is a Web Development business started by I,
-<a style="color: gold;" href="https://www.linkedin.com/in/carl-hopkins-2a0bb7210/?isSelfProfile=true">Carl R. Hopkins</a> 
-because of my passion for creating websites. 
-I am a graduate of Alabama State University with a Bachelor of Science in Computer Science.
-My goal is to build & maintain websites for growing businessesand grow my brand while improving my skills.
-I am located in Alabama, but can serve anyone nationwide. On this website you can find answers to many other questions you may have
-and schedule consultations for website creation.</p>
+   padding: 15px;
+   box-sizing: border-box;">
+   
+      <h2>About Us</h2>
+      <p style="line-height: 1.5;">CRH Web Designs is a Web Development business started by I,
+      <a style="color: gold;" href="https://www.linkedin.com/in/carl-hopkins-2a0bb7210/?isSelfProfile=true">Carl R. Hopkins</a> 
+      because of my passion for creating websites. 
+      I am a graduate of Alabama State University with a Bachelor of Science in Computer Science.
+      My goal is to build & maintain websites for growing businesses and grow my brand while improving my skills.
+      I am located in Alabama, but can serve anyone nationwide. On this website you can find answers to many other questions you may have
+      and schedule consultations for website creation.</p>
 
-<h2>Qualifications</h2>
-<p>
-    - Bachelor of Science in Computer Science from Alabama State University<br>
-    - 5+ years of experience in web development<br>
-    - Proficient in HTML, CSS, JavaScript, and various web development frameworks<br>
-    - Strong understanding of responsive design and user experience principles<br>
-    -Experience creating and maintaining complex goverment webpages<br>
-    -Comptia Security+ Certified<br>
-    -Trained in a team setting following Agile and Scrum methodologies<br>
-    -Experience with SQL databases and server-side programming
-</p>
+      <h2>Qualifications</h2>
+      <p style="line-height: 1.6;">
+      - Bachelor of Science in Computer Science from Alabama State University<br>
+      - 5+ years of experience in web development<br>
+      - Proficient in HTML, CSS, JavaScript, and various web development frameworks<br>
+      - Strong understanding of responsive design and user experience principles<br>
+      - Experience creating and maintaining complex government webpages<br>
+      - CompTIA Security+ Certified<br>
+      - Trained in a team setting following Agile and Scrum methodologies<br>
+      - Experience with SQL databases and server-side programming
+      </p>
 
-<h2>Contact</h2>
-<p>
-    Email: carlhopkins34@gmail.com<br>
-    Phone: 334-430-8827<br>
-    Instagram: <a style="color: gold;" href="https://www.instagram.com/crhwebdesignsllc/">@crhwebdesignsllc</a><br>
-    LinkedIn: <a style="color: gold;" href="https://www.linkedin.com/in/carl-hopkins-2a0bb7210/?isSelfProfile=true">Carl R. Hopkins</a>
-</p>
-</div>
+      <h2>Contact</h2>
+      <p style="line-height: 1.5;">
+          Email: carlhopkins34@gmail.com<br>
+          Phone: 334-430-8827<br>
+          Instagram: <a style="color: gold;" href="https://www.instagram.com/crhwebdesignsllc/">@crhwebdesignsllc</a><br>
+          LinkedIn: <a style="color: gold;" href="https://www.linkedin.com/in/carl-hopkins-2a0bb7210/?isSelfProfile=true">Carl R. Hopkins</a>
+      </p>
+   </div>
 
-<label id="quoteTitle" style="
+   <label id="quoteTitle" style="
         font-family: sans-serif;
-        font-size: clamp(1.8rem, 5vw, 50px);
+        font-size: clamp(1.8rem, 5vw, 40px);
         text-align: center;
         display: block;
         padding: 10px;
         color: gold;
-        margin: 10px auto 5px;">
+        margin: 20px auto 5px;">
         Ready For Your New Website?
-    </label>
+   </label>
     
-    <p style="
+   <p style="
         font-family: sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
         color: gold;
         max-width: 700px;
         margin: 0 auto 20px;
-        padding: 0 20px;
-        box-sizing: border-box;">
-        Enter you information below and we will contact you to schedule a consultation. 
+        padding: 0 10px;
+        box-sizing: border-box;
+        line-height: 1.4;">
+        Enter your information below and we will contact you to schedule a consultation. 
         Prices for websites may vary due to type, number of webpages, and complexity.
-    </p>
+   </p>
 
-    <!-- Main Content Area / Form -->
-    <div id="formBox" style="
+   <!-- Main Content Area / Form -->
+   <div id="formBox" style="
         font-family: sans-serif;
         border: 2px solid gold;
         border-radius: 12px;
         padding: 20px;
         margin: 10px auto 40px;
-        width: 50%;
+        max-width: 600px;
+        width: 100%;
         box-sizing: border-box;
         height: auto;">
-    <form action="https://api.web3forms.com/submit" method="POST">
+        
+      <form action="https://api.web3forms.com/submit" method="POST">
             <!-- Hidden Access Key from Web3Forms -->
             <input type="hidden" name="access_key" value="334fc223-03ae-4b02-8e5d-f27d29f735e2">
 
             <!-- Full Name -->
             <label style="font-size: 18px; color: gold;">Full Name*</label><br>
-            <input type="text" name="name" style="width: 100%; box-sizing: border-box;" required><br>
+            <input type="text" name="name" style="width: 100%; padding: 8px; margin-top: 5px; margin-bottom: 15px; box-sizing: border-box; border-radius: 4px; border: 1px solid #ccc;" required><br>
 
             <!-- Contact Number -->
             <label style="font-size: 18px; color: gold;">Contact Number*</label><br>
-            <input type="tel" name="phone" style="width: 100%; box-sizing: border-box;" required><br>
+            <input type="tel" name="phone" style="width: 100%; padding: 8px; margin-top: 5px; margin-bottom: 15px; box-sizing: border-box; border-radius: 4px; border: 1px solid #ccc;" required><br>
 
             <!-- Email Address -->
             <label style="font-size: 18px; color: gold;">Email Address</label><br>
-            <input type="email" name="email" style="width: 100%; box-sizing: border-box;"><br>
+            <input type="email" name="email" style="width: 100%; padding: 8px; margin-top: 5px; margin-bottom: 15px; box-sizing: border-box; border-radius: 4px; border: 1px solid #ccc;"><br>
 
-            <!-- Service Type Dropdown with Inline JavaScript -->
+            <!-- Service Type Dropdown -->
             <label style="font-size: 18px; color: gold;">Website Type*</label><br>
-            <select name="service_type" style="width: 100%; box-sizing: border-box;" required>
+            <select name="service_type" style="width: 100%; padding: 8px; margin-top: 5px; margin-bottom: 15px; box-sizing: border-box; border-radius: 4px; border: 1px solid #ccc;" required>
                 <option value="Ecommerce">Ecommerce</option>
                 <option value="Booking Site">Booking Site</option>
                 <option value="Quote/Consultation">Quote/Consultation</option>
                 <option value="Website Maintenance">Website Maintenance</option>
                 <option value="Other">Other</option>
-            </select>
+            </select><br>
             
-
             <label style="font-size: 18px; color: gold;">Additional Information</label><br>
-            <textarea name="additional_info" style="width: 100%; height:100px; box-sizing: border-box;"></textarea><br>
+            <textarea name="additional_info" style="width: 100%; height: 100px; padding: 8px; margin-top: 5px; margin-bottom: 15px; box-sizing: border-box; border-radius: 4px; border: 1px solid #ccc;"></textarea><br>
             
-
             <!-- Submit Button -->
             <button type="submit" 
-            style="margin-top: 10px; height: 40px; background-color: gold; color: black; border: none; cursor: pointer;">
+            style="width: 100%; margin-top: 10px; height: 45px; background-color: gold; color: black; font-weight: bold; font-size: 16px; border: none; border-radius: 4px; cursor: pointer;">
             Request A Quote</button>
-            </div>
+            
+      </form>
+   </div>
 
-        </form>
-
-
-
-
-
-</div>
 </body>
 </html>
